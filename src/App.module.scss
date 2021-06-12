@@ -1,0 +1,23 @@
+/** @format */
+@font-face {
+  font-family: 'MyFont';
+  src: local('Roboto Black'), url(../src/assets/fonts/Roboto-Black.ttf) format('woff');
+}
+
+.test {
+  background: red;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  > img {
+    position: fixed;
+    width: 127.5%;
+    height: 100vh;
+    z-index: -1;
+    top: -37px;
+  }
+}
